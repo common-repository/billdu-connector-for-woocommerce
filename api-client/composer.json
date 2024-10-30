@@ -1,0 +1,23 @@
+{
+	"name": "billdu/api-client",
+	"description": "API client for billdu.com, minifaktura.sk, minifaktura.cz, minirechnung.at, minirechnung.de",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Bažík",
+			"email": "martin@bazo.sk"
+		}
+	],
+	"require": {
+		"nette/utils": "@stable"
+	},
+	"require-dev": {
+		"nette/tester": "@dev",
+		"nette/robot-loader": "@dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"iInvoices\\": "src/"
+		}
+	}
+}
